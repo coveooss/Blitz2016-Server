@@ -1,3 +1,5 @@
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/coveord/Blitz2016-Server/blob/master/LICENSE)
+
 # Credits
 Credits to: [http://vindinium.org/](https://github.com/ornicar/vindinium)
 
