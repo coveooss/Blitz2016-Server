@@ -1,0 +1,17 @@
+@(replay: Replay, reloadIn: Option[Int] = None)
+
+@import play.api.libs.json.Json
+
+@main("Game " + replay.id) {
+
+<img class="logo" src="http://blitz2016.xyz/img/logo.png" alt="Coveo Blitz" height="140">
+
+<div id="game"></div>
+
+<script>
+  var GAME_ID = "@replay.id";
+  @reloadIn.map { delay =>
+    setTimeout(function() { location.href = "@routes.Game.map(delay)"; }, @delay * 1000);
+  }
+</script>
+}

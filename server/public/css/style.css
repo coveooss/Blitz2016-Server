@@ -1,0 +1,125 @@
+body {
+    background: #333;
+    color: #d0d0d0;
+    text-align: center;
+    font-size: 13px;
+    font-family: monospace;
+}
+
+body h1, body h2, body h3, body h4, #logo, #main-menu, #game, #gametv {
+    font-family: 'VT323', cursive;
+}
+
+body h2 {
+    font-size: 38px;
+}
+
+body h3 {
+    font-size: 28px;
+}
+
+body h4 {
+    font-size: 22px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button, input {
+    font-family: 'VT323', cursive;
+}
+
+#starters dl {
+    padding-left: 20px;
+}
+
+#starters dd {
+    padding-left: 20px;
+}
+#starters h3 {
+  white-space: nowrap;
+}
+
+.register-form {
+    padding-top: 30px;
+}
+
+#doc, #starters {
+    text-align: left;
+}
+
+#doc ul {
+    list-style-type: disc;
+}
+
+#doc p, #doc blockquote {
+    font-family: monospace;
+    font-size: 14px;
+}
+
+#intro {
+    text-align: left;
+}
+
+#intro blockquote {
+    font-style: italic;
+    text-align: center;
+    border-left:0;
+}
+
+#intro p {
+    padding-top: 10px;
+}
+
+#logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#logo a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#recent-games ul, #top-users ul {
+    margin: 0;
+    padding: 0;
+}
+
+#main-menu ul {
+    list-style-type: none;
+    font-size: 26px;
+    padding:0 0 40px 0;
+    margin:0;
+}
+
+#main-menu ul li:first-child:before {
+    content: "";
+}
+
+#main-menu ul li:before {
+    content: " - ";
+}
+
+#main-menu ul li {
+    display: inline-block;
+}
+
+#nav {
+    display: none;
+    text-align: center;
+}
+
+#nav span {
+    cursor: pointer;
+}
+

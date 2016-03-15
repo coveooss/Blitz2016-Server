@@ -1,0 +1,19 @@
+target/
+logs/
+.idea/
+.DS_Store
+
+npm-debug.log
+node_modules
+
+# Dashboard
+static/js/bundle.js
+static/img/team
+dashboard/dist/
+dashboard/definitions/
+.classpath
+.idea/*
+.settings/*
+.project
+.iml
+.tar.gz

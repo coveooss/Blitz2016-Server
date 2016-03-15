@@ -1,0 +1,43 @@
+{
+  "name": "blitzclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "tsd reinstall --so",
+    "start": "node ./dist/server/server.js 3000",
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "tsc -p ./src/client && webpack ./dist/client/app.js ./static/js/bundle.js",
+    "build:server": "tsc -p ./src/server",
+    "init": "tsc -p ./src/server && node ./dist/server/init/init.js",
+    "deploy": "./deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/coveord/blitz"
+  },
+  "author": "Coveo",
+  "license": "Coveo",
+  "devDependencies": {
+    "tsd": "0.6.4",
+    "typescript": " 1.6.2",
+    "webpack": "^1.10.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "imagemagick": "^0.1.3",
+    "mongoose": "^4.1.9",
+    "mongoose-findorcreate": "^0.1.2",
+    "multiparty": "^4.1.2",
+    "page": "^1.6.3",
+    "react": "^0.13.3",
+    "request": "^2.67.0",
+    "socket.io": "^1.3.7",
+    "underscore": "^1.8.3"
+  }
+}

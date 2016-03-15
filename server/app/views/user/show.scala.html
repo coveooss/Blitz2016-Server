@@ -1,0 +1,25 @@
+@(user: User, replays: List[Replay], rank: Option[Int])
+
+@main(user.name) {
+<h1><span id="user-name">@user.name</span> <span id="user-elo">(@user.elo)</span></h1>
+
+@rank.map { r =>
+Ranked @r
+}
+
+<div id="gametv"></div>
+
+<section id="recent-games">
+  <h2>Recent games</h2>
+  <ul>
+    @replays.map { replay =>
+    <li>
+      <a href="@routes.Game.show(replay.id)@if(!replay.finished){?speed=max}">
+        @replay.names.mkString(" vs "),
+        @if(replay.finished) { Finished } else { In progress }
+      </a>
+    </li>
+    }
+  </ul>
+</section>
+}

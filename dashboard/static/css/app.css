@@ -1,0 +1,163 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    padding-top: 160px;
+}
+
+.navbar-default {
+    background-color: #79bde0;
+}
+
+.navbar-default:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    -webkit-transform: skewY(-3deg) translateY(-75pt);
+    -ms-transform: skewY(-3deg) translateY(-75pt);
+    transform: skewY(-3deg) translateY(-75pt);
+    background-color: #79bde0;
+    z-index: -1;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    border-color: #ff530d;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ff530d;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+
+.navbar-brand > img {
+    height: 80px;
+    margin-top: -25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #ff530d;
+}
+
+.thumbnail {
+    border: 8px solid #ff530d;
+    height: 400px;
+}
+
+.thumbnail img {
+    max-height: 260px;
+}
+
+.thumbnail .caption {
+    position: absolute;
+    bottom: 20px;
+}
+
+.team {
+    margin-top: -110px;
+}
+
+.team .card {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.team .card-background {
+    opacity: 0.6;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 250px;
+}
+
+.team .card .useravatar {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+
+.team .card .useravatar img {
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+.team .card .card-info {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    text-shadow: 0 1px 0 black;
+}
+
+.team h1 {
+    text-align: center;
+}
+
+.tv {
+    width: 100%;
+    height: calc(100vh - 50px);
+}
+
+.notification {
+    padding: 10px;
+    background-color: #fff;
+    border: 8px solid #ff530d;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 100000;
+    width: 600px;
+    height: 300px;
+    margin-left: -300px;
+    margin-top: -150px;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+}
+
+.notification .logo {
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+
+#twitter-widget-0 {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.scoreboard {
+    height: 70vh;
+}
+
+.doc {
+    width: 90%;
+    height: 80vh;
+    border: none;
+    margin: auto;
+}

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "../../dist/server",
+    "sourceMap": true,
+    "target": "ES5"
+  },
+  "files": [
+    "server.ts",
+    "init/init.ts",
+    "init/teams.ts",
+    "init/achievements.ts",
+    "config/secrets.ts",
+    "models/team.ts",
+    "models/achievements.ts"
+  ]
+}

@@ -1,0 +1,145 @@
+body {
+    background-color: #e1ebf5;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+    background: linear-gradient(270deg, #79bde0, #ffffff);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    -o-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading, .form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin select {
+    font-family: inherit;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 0;
+    height: 44px;
+    -webkit-appearance: none;
+    margin-bottom: 5px;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 0;
+}
+
+.form-signin .btn-primary {
+    background-color: #79bde0;
+    border: none;
+}
+
+.form-signin .btn-primary:hover {
+    background-color: #90dcff;
+    border: none;
+}
+
+.account-wall {
+    margin-top: 15vh;
+    padding: 60px 10px 40px 10px;
+    background-color: #fff;
+    border-color: #ff530d;
+    border: 8px solid #ff530d;
+    border-radius: 5px;
+}
+
+.login-title {
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+
+.profile-img {
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+
+.need-help {
+    margin-top: 10px;
+}
+
+.new-account {
+    display: block;
+    margin-top: 10px;
+}
+
+.login-container {
+    transition: all;
+}
+
+.login-container .dino {
+    background-image: url('../img/dino.png');
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: -1;
+    left: -45px;
+    bottom: -45px;
+    background-size: cover;
+    transition: all 0.2s ease;
+}
+
+
+.login-container:hover .dino {
+    transform: rotateZ(-30deg);
+    left: -200px;
+}
