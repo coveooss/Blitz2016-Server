@@ -9,7 +9,7 @@
     "pixi.js": "1.6.1",
     "raf": "2.0.1",
     "react": "0.12.1",
-    "rx": "2.3.1",
+    "rx": "2.5.3",
     "seedrandom": "2.3.6",
     "bezier-easing": "0.4.2",
     "smoothstep": "1.0.0"
