@@ -11,7 +11,7 @@
     "react": "0.12.1",
     "rx": "2.3.1",
     "seedrandom": "2.3.6",
-    "bezier-easing": "0.4.2",
+    "bezier-easing": "0.4.5",
     "smoothstep": "1.0.0"
   },
   "devDependencies": {
